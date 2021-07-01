@@ -39,7 +39,7 @@ function paintBg(e) {
     e.preventDefault();
 
     $span.innerText = hexGenerator();
-    let colorValue = $span.innerText = hexGenerator();
+    let colorValue = $span.innerText = hexGenerator(); //신의한수!!!
     $body.style.backgroundColor = colorValue;
     // span 값과 body의 background-color 값이 서로 다른 hexGenerator()로 생성됨....... 어떻게 값을 일치시킬것인가?
 }
