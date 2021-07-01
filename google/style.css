@@ -1,0 +1,57 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+li {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.sign {
+    background-color: blue;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 187px;
+    margin-bottom: 30px;
+    font-size: 85px;
+    color: #34A853;
+    
+}
+
+.blue {
+    color: #4285F4;
+}
+
+.red { 
+    color: #EA4335;
+}
+
+h1 span:nth-child(3) {
+    color: #FBBC05;
+}
+
+input   {
+    width: 32vw;
+    height: 40px;
+    border-radius: 20px;
+    border: 0.2px solid gray ;
+    opacity: 0.5;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
